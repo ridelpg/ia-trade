@@ -1,0 +1,30 @@
+body {
+    background-color: #FFD700; /* Amarelo Ouro */
+    color: #000; /* Preto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.cta-link {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000; /* Preto */
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #000; /* Preto */
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-link:hover {
+    background-color: #000; /* Preto */
+    color: #FFD700; /* Amarelo Ouro */
+}
